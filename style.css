@@ -1,0 +1,34 @@
+body {
+    background-color: #eeeeee;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    /* font-weight: 700; */
+    /* font-size: 35px; */
+    font-size: 2vw;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 5px solid #cccccc;
+    padding: 10px 0;
+    /* 22.5% * 2 = 45 * ( Images lenght we set width at 22.5)/
+    /* 1.25 * 2 = 2.5 ( Margin is set at 1.25 multply by 2 images  */
+    /* 45 + 2.5 = 47.5 Width of an element */
+    width: 47.5%;
+    /* Margin auto centers p element horizontally */
+    /* After setting an element width text align will no longer apply use margin: auto; to center it */
+    margin: auto;
+    
+}
+
+img {
+    /* 22.5 * 4 = 90 */
+    width: 22.5% ;
+    /* 1.25 * 2 * 4 =10 */
+    margin: 1.25%;
+    /* 90+10=100 */
+
+/* The float css prperty places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page. Also it removes "Mystery/Ghost Space" between elements. */
+    float:left;
+}
